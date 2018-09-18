@@ -1,6 +1,6 @@
 {
   "skill_name": "Readable skill name for the Alexa skill",
-  "skill_slug": "{{ cookiecutter.skill_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "skill_slug": "{{ cookiecutter.skill_name.lower().replace(' ', '-') }}",
   "project_repo": "{{ 'alexa-skill-' + cookiecutter.skill_slug }}",
-  "project_short_description": "Alexa skill to..."
+  "project_short_description": "French Alexa skill to..."
 }
