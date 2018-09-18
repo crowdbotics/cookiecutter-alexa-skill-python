@@ -4,7 +4,7 @@
 
 ![{{cookiecutter.skill_name}} Alexa skill icon](/icons/icon_108.png)
 
-...DESCRIPTION OF THE SKILL...
+{{cookiecutter.project_short_description}}
 
 # Release note
 
