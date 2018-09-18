@@ -1,7 +1,6 @@
 {
-  "project_name": "Readable project name for the Alexa skill",
-  "project_repo": "{{ 'alexa-skill-' + cookiecutter.project_name.lower().replace(' ', '') }}",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "skill_name": "Readable skill name for the Alexa skill",
+  "skill_slug": "{{ cookiecutter.skill_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_repo": "{{ 'alexa-skill-' + cookiecutter.skill_slug }}",
   "project_short_description": "Alexa skill to...",
-  "pypi_username": "thibdct",
 }
