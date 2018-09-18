@@ -8,7 +8,7 @@
 
 ## Steps
 
-- Create a repo on [Github](https://github.com/new) with a desired [REPOSITORY] name
+- Create a repo on [Github](https://github.com/new) with a desired [REPOSITORY] name (for example : alexa-skill-my-new-skill)
 - Fill the short description on Github and copy it for the following steps
 - Execute in the terminal `git clone https://github.com/tducret/[REPOSITORY].git`
 - Execute the cookiecutter with `cookiecutter -f https://github.com/tducret/cookiecutter-alexa-skill-python.git` (`-f` is to overwrite the contents of the output directory if it already exists)
