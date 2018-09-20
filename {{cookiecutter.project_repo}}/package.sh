@@ -10,7 +10,7 @@
 PACKAGE_NAME="{{cookiecutter.project_repo}}"
 PROJECT_DIR=$(pwd)
 BUILD_DIR="build"
-SOURCES="{{cookiecutter.skill_slug}}skill.py"
+SOURCES="{{cookiecutter.skill_slug}}_skill.py"
 VIRTUAL_ENV="venv"
 NEEDED_PACKAGES="ask_sdk_core ask_sdk_model requests urllib3 certifi idna chardet pytz"
 OTHER_FILES="other_file.txt" # <== TO BE REMOVED IF NOT NEEDED
