@@ -39,7 +39,7 @@ IF NEEDED
 ### Lambda 
 
 - Alexa skill kit is not available in Paris AWS datacenter (available in Ireland)
-- Load the zip file obtained in `build` (generated with `package.sh
+- Load the zip file obtained in `build` (generated with `package.sh`)
 - Make sure you put `{{cookiecutter.skill_slug}}_skill.handler` in Gestionnaire
 - Select **Alexa Skills Kit** in `Designer`
 - Put the skill id that you got from the `Alexa developer console` > Endpoint
